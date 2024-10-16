@@ -1,0 +1,49 @@
+.jock-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jock {
+  background-color:burlywood;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 30px;
+  height: 300px;
+  width: 500px;
+  box-shadow: 5px 5px  10px black;
+}
+.jock p{
+  text-align: center;
+  margin: 10px;
+}
+button{
+  height: 50px;
+  width: 100px;
+  font-size: 25px;
+  font-weight: 500;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #3e8e41;
+
+}
+.footer{
+  position: relative;
+  bottom: 0;
+  margin-top: 5.8%;
+  text-align: center;
+  padding: 1.5% 0% 1.5% 0%;
+  background-color: rgb(0, 0, 14);
+
+}
+.footer p{
+  color: white;
+  font-size: larger;
+  font-weight: 500;
+
+}
