@@ -19,7 +19,7 @@ const App = () => {
       <Navbar theme={theme} settheme={settheme} />
       <div className='jock-main'>
         <div className='jock'>
-          <h1>Today Jocks</h1>
+          <h1>Today Jokes</h1>
           <p>{jock.setup}</p>
           <p>{jock.punchline}</p>
           <button onClick={()=> window.location.reload(false)}>Next</button>

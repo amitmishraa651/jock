@@ -73,11 +73,14 @@ button:focus-visible {
   font-family: sans-serif;
  }
  .container{
-  width: 100vw;
-  min-height: 100vh;
-  background-color: #ced8ff;
+  width: 98.9vw;
+  min-height: 100%;
+  background-image: url(./assets/bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
  }
  .container.dark{
-  background: #222;
+  background-image: url(./assets/bg.jpeg);
  }
 
